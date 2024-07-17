@@ -1,0 +1,671 @@
+{
+  "conditions":
+  [
+    "stun",
+    "immobilize",
+    "disarm",
+    "wound",
+    "muddle",
+    "poison",
+    "invisible",
+    "strengthen",
+    "curse",
+    "bless",
+    "rupture"
+  ],
+  "edition": "sh",
+  "worldMap":
+  {
+    "width": 2958,
+    "height": 2410
+  },
+  "logoUrl": "https://img.freepik.com/photos-gratuite/plan-vertical-motifs-sable-dans-desert_181624-29789.jpg",
+  "extensions":
+  ["gh"],
+  "characters":
+  [
+    {
+      "name": "connard2",
+      "thumbnailUrl": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.artdeseduire.com%2Fwp-content%2Fuploads%2F2011%2F10%2FMonsieur-Connard.jpeg&f=1&nofb=1&ipt=8e4a45474b6ed18e8d5b78ecc2172f4e3dc1a8b887fac82afb4546d5d45fc5d7&ipo=images",
+      "iconUrl": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.artdeseduire.com%2Fwp-content%2Fuploads%2F2011%2F10%2FMonsieur-Connard.jpeg&f=1&nofb=1&ipt=8e4a45474b6ed18e8d5b78ecc2172f4e3dc1a8b887fac82afb4546d5d45fc5d7&ipo=images",
+      "characterClass": "inox",
+      "gender": "m",
+      "edition": "sh",
+      "handSize": 10,
+      "retireEvent": "42",
+      "color": "#35acd5",
+      "stats":
+      [
+        {
+          "level": 1,
+          "health": 10
+        },
+        {
+          "level": 2,
+          "health": 12
+        },
+        {
+          "level": 3,
+          "health": 14
+        },
+        {
+          "level": 4,
+          "health": 16
+        },
+        {
+          "level": 5,
+          "health": 18
+        },
+        {
+          "level": 6,
+          "health": 20
+        },
+        {
+          "level": 7,
+          "health": 22
+        },
+        {
+          "level": 8,
+          "health": 24
+        },
+        {
+          "level": 9,
+          "health": 26
+        }
+      ],
+      "perks":
+      [
+        {
+          "type": "remove",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 2,
+              "attackModifier":
+              {
+                "type": "minus1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "replace",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "minus1"
+              }
+            },
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 2,
+          "cards":
+          [
+            {
+              "count": 2,
+              "attackModifier":
+              {
+                "type": "plus1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus3"
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 2,
+          "cards":
+          [
+            {
+              "count": 3,
+              "attackModifier":
+              {
+                "type": "plus0",
+                "rolling": true,
+                "effects":
+                [
+                  {
+                    "type": "push",
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 2,
+              "attackModifier":
+              {
+                "type": "plus0",
+                "rolling": true,
+                "effects":
+                [
+                  {
+                    "type": "pierce",
+                    "value": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 2,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus0",
+                "rolling": true,
+                "effects":
+                [
+                  {
+                    "type": "condition",
+                    "value": "stun"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus0",
+                "rolling": true,
+                "effects":
+                [
+                  {
+                    "type": "condition",
+                    "value": "disarm"
+                  }
+                ]
+              }
+            },
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus0",
+                "rolling": true,
+                "effects":
+                [
+                  {
+                    "type": "condition",
+                    "value": "muddle"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 2,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus0",
+                "rolling": true,
+                "effects":
+                [
+                  {
+                    "type": "target",
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus1",
+                "effects":
+                [
+                  {
+                    "type": "shield",
+                    "value": 1,
+                    "effects":
+                    [
+                      {
+                        "type": "specialTarget",
+                        "value": "self"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "add",
+          "custom": "%game.custom.perks.ignoreNegativeItem%",
+          "count": 1,
+          "cards":
+          [
+            {
+              "count": 1,
+              "attackModifier":
+              {
+                "type": "plus1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsters":
+  [
+    {
+      "name": "renard-des-sables",
+      "edition": "sh",
+      "count": 10,
+      "thumbnailUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.animal-de-compagnie.fr%2Fwp-content%2Fuploads%2F2022%2F10%2Ffennec.jpg&f=1&nofb=1&ipt=b695fde946198e0069d22f5baf5d3d41607c8d5cfe086d3c6b7746a07f9b3e85&ipo=images",
+      "baseStat":
+      {
+          "type": "normal"
+      },
+      "stats":
+      [
+          {
+              "level": 0,
+              "health": 4,
+              "attack": 2,
+              "range": 4
+          },
+          {
+              "level": 1,
+              "health": 6,
+              "attack": 2,
+              "range": 4
+          },
+          {
+              "level": 2,
+              "health": 7,
+              "attack": 2,
+              "range": 5
+          },
+          {
+              "level": 3,
+              "health": 8,
+              "attack": 3,
+              "range": 5
+          },
+          {
+              "level": 4,
+              "health": 9,
+              "attack": 4,
+              "range": 5
+          },
+          {
+              "level": 5,
+              "health": 11,
+              "attack": 4,
+              "range": 6
+          },
+          {
+              "level": 6,
+              "health": 14,
+              "attack": 4,
+              "range": 6
+          },
+          {
+              "level": 7,
+              "health": 16,
+              "attack": 4,
+              "range": 7
+          },
+          {
+              "type": "elite",
+              "level": 0,
+              "health": 7,
+              "attack": 3,
+              "range": 5
+          },
+          {
+              "type": "elite",
+              "level": 1,
+              "health": 9,
+              "attack": 3,
+              "range": 5
+          },
+          {
+              "type": "elite",
+              "level": 2,
+              "health": 11,
+              "attack": 3,
+              "range": 6
+          },
+          {
+              "type": "elite",
+              "level": 3,
+              "health": 13,
+              "attack": 4,
+              "range": 6
+          },
+          {
+              "type": "elite",
+              "level": 4,
+              "health": 13,
+              "attack": 4,
+              "range": 6,
+              "actions":
+              [
+                  {
+                      "type": "target",
+                      "value": 2
+                  }
+              ]
+          },
+          {
+              "type": "elite",
+              "level": 5,
+              "health": 15,
+              "attack": 4,
+              "range": 7,
+              "actions":
+              [
+                  {
+                      "type": "target",
+                      "value": 2
+                  }
+              ]
+          },
+          {
+              "type": "elite",
+              "level": 6,
+              "health": 16,
+              "attack": 5,
+              "range": 7,
+              "actions":
+              [
+                  {
+                      "type": "target",
+                      "value": 2
+                  }
+              ]
+          },
+          {
+              "type": "elite",
+              "level": 7,
+              "health": 20,
+              "attack": 5,
+              "range": 7,
+              "actions":
+              [
+                  {
+                      "type": "target",
+                      "value": 2
+                  }
+              ]
+          }
+      ]
+  }
+  ],
+  "decks":
+  [
+    {
+      "name": "renard-des-sables",
+      "edition": "sh",
+      "abilities":
+      [
+          {
+              "cardId": 701,
+              "initiative": 71,
+              "shuffle": true,
+              "actions":
+              [
+                  {
+                      "type": "attack",
+                      "value": 0,
+                      "valueType": "plus",
+                      "subActions":
+                      [
+                          {
+                              "type": "custom",
+                              "value": "rien à foutre",
+                              "small": true
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+  ],
+  "scenarios":
+  [
+    {
+      "index": "1",
+      "name": "connard dans le désert",
+      "flowChartGroup": "intro",
+      "coordinates":
+      {
+          "x": 1434,
+          "y": 975,
+          "width": 182,
+          "height": 140,
+          "gridLocation": "G-10"
+      },
+      "edition": "sh",
+      "initial": true,
+      "unlocks":
+      [
+          "2"
+      ],
+      "links":
+      [
+          "2"
+      ],
+      "rewards":
+      {
+      },
+      "monsters":
+      [
+          "ancient-artillery",
+          "arcane-golem",
+          "renard-des-sables"
+      ],
+      "rooms":
+      [
+          {
+              "roomNumber": 1,
+              "ref": "L1a",
+              "initial": true,
+              "rooms":
+              [
+                  2
+              ],
+              "monster":
+              [
+                {
+                  "name": "renard-des-sables",
+                  "type": "normal"
+              },
+                  {
+                      "name": "ancient-artillery",
+                      "type": "normal"
+                  },
+                  {
+                      "name": "bandit-guard",
+                      "player3": "normal",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "arcane-golem",
+                      "player3": "normal",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "arcane-golem",
+                      "player3": "normal",
+                      "player4": "elite"
+                  }
+              ]
+          },
+          {
+              "roomNumber": 2,
+              "ref": "G1b",
+              "rooms":
+              [
+                  3
+              ],
+              "monster":
+              [
+                  {
+                      "name": "bandit-archer",
+                      "type": "elite"
+                  },
+                  {
+                      "name": "bandit-archer",
+                      "player3": "normal",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "bandit-archer",
+                      "player3": "normal",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "bandit-guard",
+                      "player2": "normal",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "bandit-guard",
+                      "player2": "normal",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "bandit-guard",
+                      "player3": "elite",
+                      "player4": "elite"
+                  }
+              ]
+          },
+          {
+              "roomNumber": 3,
+              "ref": "I1b",
+              "marker": "1",
+              "treasures":
+              [
+                  7
+              ],
+              "monster":
+              [
+                  {
+                      "name": "bandit-archer",
+                      "type": "normal"
+                  },
+                  {
+                      "name": "bandit-archer",
+                      "player2": "normal",
+                      "player3": "elite",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "bandit-archer",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "bandit-archer",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "living-bones",
+                      "type": "normal"
+                  },
+                  {
+                      "name": "living-bones",
+                      "player2": "normal",
+                      "player3": "elite",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "living-bones",
+                      "player4": "normal"
+                  },
+                  {
+                      "name": "living-bones",
+                      "player4": "normal"
+                  }
+              ]
+          }
+      ]
+  }
+    
+  ],
+  "battleGoals":
+  [],
+  "events":
+  [],
+  "personalQuests":
+  [],
+  "challenges":
+  [],
+  "sections":
+  [],
+  "items":
+  [],
+  "treasures":
+  [],
+  "label":
+  {},
+  "labelSpoiler":
+  {}
+}
